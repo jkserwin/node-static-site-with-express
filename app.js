@@ -19,8 +19,8 @@ app.get('/about', (req, res) => {
 
 app.get('/projects/:id', (req, res) => {
     const { id } = req.params;
-    const templateData = { id, projectName, description, technologies, liveLink, githubLink };
-    res.render('project', templateData);
+    const project = projects[id];
+    res.render('project');
 });
 
 app.listen(3000, () => {
