@@ -11,7 +11,34 @@
         },
         {
             "id": 1,
-            "projectName": "Name",
+            "projectName": "Interactive Form",
+            "description": "A registration form that checks for properly filled out and formatted information before submitting, and displays accessibility-optimized errors where applicable.",
+            "technologies": ["JavaScript", "HTML"],
+            "liveLink": "www.google.com",
+            "githubLink": "www.github.com",
+            "image_urls": ["./images/image1.jpg", "./images/image2.jpg"]
+        },
+        {
+            "id": 2,
+            "projectName": "Word Guessing Game",
+            "description": "This is the description of the project",
+            "technologies": ["JavaScript", "HTML"],
+            "liveLink": "www.google.com",
+            "githubLink": "www.github.com",
+            "image_urls": ["./images/image1.jpg", "./images/image2.jpg"]
+        },
+        {
+            "id": 3,
+            "projectName": "Random Quote Generator",
+            "description": "This is the description of the project",
+            "technologies": ["JavaScript", "HTML"],
+            "liveLink": "www.google.com",
+            "githubLink": "www.github.com",
+            "image_urls": ["./images/image1.jpg", "./images/image2.jpg"]
+        },
+        {
+            "id": 4,
+            "projectName": "Data Pagination and Filtering",
             "description": "This is the description of the project",
             "technologies": ["JavaScript", "HTML"],
             "liveLink": "www.google.com",
