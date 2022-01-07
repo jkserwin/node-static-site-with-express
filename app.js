@@ -18,10 +18,16 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
-app.get('/projects/:id', (req, res) => {
+app.get('/projects/:id', (req, res, next) => {
     const { id } = req.params;
     const project = projects[id];
-    res.render('project', project);
+
+    if (project) {
+        res.render('project', project);
+    } else {
+        next();
+    }
+
 });
 
 // 404 error handler
@@ -30,7 +36,7 @@ app.use((req, res, next) => {
     const err = new Error('404: Page not found');
     err.status = 404;
     console.error("404: Page not found");
-    next(err);
+    res.render('page-not-found', {err});
 });
 
 // Global error handler
@@ -38,7 +44,7 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     err.message = err.message || `Oops! Looks like there was a server error: ${err.status}.`;
     res.status(err.status || 500);
-    next(err);
+    res.render('error', {err})
 });
 
 app.listen(3000, () => {
