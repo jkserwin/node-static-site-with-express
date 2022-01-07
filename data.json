@@ -3,47 +3,52 @@
         {
             "id": 0,
             "projectName": "Responsive Registration Form",
-            "description": "A registration form that checks for properly filled out and formatted information before submitting, and displays accessibility-optimized errors where applicable.",
+            "description": "A responsive, mobile-first newsletter registration form.",
             "technologies": ["JavaScript", "HTML", "CSS"],
-            "liveLink": "www.google.com",
-            "githubLink": "www.github.com",
-            "image_urls": ["./public/images/responsive_registration_form_1200x550.jpg", "./public/images/responsive_registration_form_square.jpg"]
+            "liveLink": "https://jkserwin.github.io/responsive_registration_form/",
+            "githubLink": "https://github.com/jkserwin/responsive_registration_form",
+            "thumbnail_url": "./static/images/responsive_registration_form_square.jpg",
+            "image_urls": ["./static/images/responsive_registration_form_1200x550.jpg", "./static/images/responsive_registration_form_2.jpg"]
         },
         {
             "id": 1,
             "projectName": "Interactive Form",
-            "description": "A registration form that checks for properly filled out and formatted information before submitting, and displays accessibility-optimized errors where applicable.",
-            "technologies": ["JavaScript", "HTML"],
-            "liveLink": "www.google.com",
-            "githubLink": "www.github.com",
-            "image_urls": ["./images/image1.jpg", "./images/image2.jpg"]
+            "description": "An interactive registration form that checks for properly filled out and formatted information before submitting, and displays accessibility-optimized errors where applicable.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "liveLink": "https://jkserwin.github.io/Interactive-Form/",
+            "githubLink": "https://github.com/jkserwin/Interactive-Form",
+            "thumbnail_url": "./static/images/interactive_form_square.jpg",
+            "image_urls": ["./static/images/interactive_form_2.jpg", "./static/images/interactive_form_3.jpg"]
         },
         {
             "id": 2,
             "projectName": "Word Guessing Game",
-            "description": "This is the description of the project",
-            "technologies": ["JavaScript", "HTML"],
-            "liveLink": "www.google.com",
-            "githubLink": "www.github.com",
-            "image_urls": ["./images/image1.jpg", "./images/image2.jpg"]
+            "description": "A JavaScript-based game in which players try to guess a word by clicking letters on an onscreen keyboard.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "liveLink": "https://jkserwin.github.io/word_guessing_game/",
+            "githubLink": "https://github.com/jkserwin/word_guessing_game",
+            "thumbnail_url": "./static/images/word_guessing_game_square.jpg",
+            "image_urls": ["./static/images/word_guessing_game_1.jpg", "./static/images/word_guessing_game_2.jpg", "./static/images/word_guessing_game_3.jpg"]
         },
         {
             "id": 3,
-            "projectName": "Random Quote Generator",
-            "description": "This is the description of the project",
+            "projectName": "Data Pagination and Filtering",
+            "description": "A site that paginates several pages of student data",
             "technologies": ["JavaScript", "HTML"],
-            "liveLink": "www.google.com",
-            "githubLink": "www.github.com",
-            "image_urls": ["./images/image1.jpg", "./images/image2.jpg"]
+            "liveLink": "https://jkserwin.github.io/Data-Pagination-and-Filtering/",
+            "githubLink": "https://github.com/jkserwin/Data-Pagination-and-Filtering",
+            "thumbnail_url": "./static/images/data_pagination_and_filtering_square.jpg",
+            "image_urls": ["./static/images/data_pagination_and_filtering_2.jpg", "./static/images/data_pagination_and_filtering_1.jpg"]
         },
         {
             "id": 4,
-            "projectName": "Data Pagination and Filtering",
-            "description": "This is the description of the project",
-            "technologies": ["JavaScript", "HTML"],
-            "liveLink": "www.google.com",
-            "githubLink": "www.github.com",
-            "image_urls": ["./images/image1.jpg", "./images/image2.jpg"]
+            "projectName": "Employee Directory from Public API",
+            "description": "An employee directory generated with random data from a third-party API that displays employee info and opens a modal overlay with additional info on click.",
+            "technologies": ["JavaScript", "HTML", "Fetch API"],
+            "liveLink": "https://jkserwin.github.io/Access_and_Use_a_Public_API/",
+            "githubLink": "https://github.com/jkserwin/Access_and_Use_a_Public_API",
+            "thumbnail_url": "./static/images/employee_directory_square.jpg",
+            "image_urls": ["./static/images/employee_directory_1200x550.jpg", "./static/images/employee_directory_2.jpg"]
         }
     ]
 }
